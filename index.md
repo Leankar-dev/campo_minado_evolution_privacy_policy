@@ -59,7 +59,7 @@ The App is a general-audience game suitable for all ages. It does not collect an
 
 We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last updated" date at the top of this document. We encourage you to review this policy periodically.
 
-#### 8. Contact
+#### 8. Contact:
 
 If you have any questions or concerns about this Privacy Policy, please contact us:
 
