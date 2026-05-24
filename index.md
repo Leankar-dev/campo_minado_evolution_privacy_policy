@@ -4,7 +4,7 @@
 
 ---
 
-## Table of Contents
+## Table of Contents.
 
 - [English](#english)
 - [Português](#português)
@@ -26,7 +26,7 @@ Thank you for playing **Campo Minado Evolution** ("the App"), developed by **Lea
 
 #### 2. Data Collected by the App
 
-The App itself does **not** collect, store, or transmit any personally identifiable information (PII). All data generated during gameplay is stored **exclusively on your device** and is never sent to our servers.
+The App does **not** collect, store, or transmit any personally identifiable information (PII). The App works entirely offline. All data generated during gameplay is stored **exclusively on your device** and is never sent to any server.
 
 **Locally stored data (never transmitted):**
 
@@ -36,22 +36,13 @@ The App itself does **not** collect, store, or transmit any personally identifia
 | Saved game state (board layout, elapsed time, difficulty) | Resume interrupted games | Local SQLite database |
 | Preferences (difficulty, theme, language) | Remember your settings | SharedPreferences (local) |
 
-#### 3. Third-Party Services — Google AdMob
+#### 3. No Third-Party Services
 
-The App displays advertisements provided by **Google AdMob** (Google LLC). To serve relevant ads, the AdMob SDK may automatically collect the following information from your device:
+The App does not integrate any analytics, advertising, or crash-reporting SDKs. No data is shared with third parties.
 
-- Advertising identifier (Google Advertising ID — GAID)
-- Device information (model, operating system version)
-- IP address (used to determine general location and serve region-appropriate ads)
-- Ad interaction data (impressions, clicks)
+#### 4. No Internet Access Required
 
-This data is collected and processed by Google, not by Leankar.dev. We do not receive, store, or have access to this data. Google's data practices are governed by **Google's Privacy Policy**, available at: https://policies.google.com/privacy
-
-**Ad personalization:** Google may use the Advertising ID to show you personalized ads based on your interests. You can opt out of ad personalization in your device settings under **Google > Ads > Opt out of Ads Personalization**.
-
-#### 4. Internet Permission
-
-The App requests the `INTERNET` permission solely to load and display advertisements from Google AdMob. No other data is transmitted over the internet by the App.
+The App does not request internet permission and does not make any network connections. All functionality is fully offline.
 
 #### 5. Data Retention and Deletion
 
@@ -62,7 +53,7 @@ All locally stored data (game statistics, saved games, and preferences) resides 
 
 #### 6. Children's Privacy
 
-The App is a general-audience game. We do not knowingly collect personal information from children under the age of 13. If you are a parent or guardian and believe your child has provided personal information through the App, please contact us so we can take appropriate action.
+The App is a general-audience game suitable for all ages. It does not collect any personal information from any user, including children.
 
 #### 7. Changes to This Policy
 
@@ -90,7 +81,7 @@ Obrigado por jogar **Campo Minado Evolution** ("o Aplicativo"), desenvolvido por
 
 #### 2. Dados Coletados pelo Aplicativo
 
-O Aplicativo em si **não** coleta, armazena nem transmite nenhuma informação de identificação pessoal (PII). Todos os dados gerados durante o jogo são armazenados **exclusivamente no seu dispositivo** e nunca são enviados aos nossos servidores.
+O Aplicativo **não** coleta, armazena nem transmite nenhuma informação de identificação pessoal (PII). O Aplicativo funciona inteiramente offline. Todos os dados gerados durante o jogo são armazenados **exclusivamente no seu dispositivo** e nunca são enviados a nenhum servidor.
 
 **Dados armazenados localmente (nunca transmitidos):**
 
@@ -100,22 +91,13 @@ O Aplicativo em si **não** coleta, armazena nem transmite nenhuma informação 
 | Estado de jogo salvo (tabuleiro, tempo decorrido, dificuldade) | Retomar jogos interrompidos | Banco de dados SQLite local |
 | Preferências (dificuldade, tema, idioma) | Lembrar suas configurações | SharedPreferences (local) |
 
-#### 3. Serviços de Terceiros — Google AdMob
+#### 3. Sem Serviços de Terceiros
 
-O Aplicativo exibe anúncios fornecidos pelo **Google AdMob** (Google LLC). Para veicular anúncios relevantes, o SDK do AdMob pode coletar automaticamente as seguintes informações do seu dispositivo:
+O Aplicativo não integra nenhum SDK de analytics, publicidade ou relatório de erros. Nenhum dado é compartilhado com terceiros.
 
-- Identificador de publicidade (Google Advertising ID — GAID)
-- Informações do dispositivo (modelo, versão do sistema operacional)
-- Endereço IP (utilizado para determinar a localização geral e veicular anúncios adequados à região)
-- Dados de interação com anúncios (impressões, cliques)
+#### 4. Sem Acesso à Internet
 
-Esses dados são coletados e processados pelo Google, não pela Leankar.dev. Não recebemos, armazenamos nem temos acesso a essas informações. As práticas de dados do Google são regidas pela **Política de Privacidade do Google**, disponível em: https://policies.google.com/privacy
-
-**Personalização de anúncios:** O Google pode usar o Advertising ID para exibir anúncios personalizados com base nos seus interesses. Você pode desativar a personalização de anúncios nas configurações do dispositivo em **Google > Anúncios > Cancelar a personalização de anúncios**.
-
-#### 4. Permissão de Internet
-
-O Aplicativo solicita a permissão `INTERNET` exclusivamente para carregar e exibir anúncios do Google AdMob. Nenhum outro dado é transmitido pela internet pelo Aplicativo.
+O Aplicativo não solicita permissão de internet e não realiza nenhuma conexão de rede. Todas as funcionalidades são completamente offline.
 
 #### 5. Retenção e Exclusão de Dados
 
@@ -126,7 +108,7 @@ Todos os dados armazenados localmente (estatísticas, jogos salvos e preferênci
 
 #### 6. Privacidade de Crianças
 
-O Aplicativo é destinado ao público geral. Não coletamos intencionalmente informações pessoais de crianças menores de 13 anos. Caso você seja pai, mãe ou responsável e acredite que seu filho forneceu informações pessoais por meio do Aplicativo, entre em contato conosco para que possamos tomar as medidas adequadas.
+O Aplicativo é um jogo adequado para todas as idades. Não coleta nenhuma informação pessoal de nenhum usuário, incluindo crianças.
 
 #### 7. Alterações nesta Política
 
@@ -154,7 +136,7 @@ Gracias por jugar **Campo Minado Evolution** ("la Aplicación"), desarrollada po
 
 #### 2. Datos Recopilados por la Aplicación
 
-La Aplicación en sí **no** recopila, almacena ni transmite ninguna información de identificación personal (PII). Todos los datos generados durante el juego se almacenan **exclusivamente en su dispositivo** y nunca se envían a nuestros servidores.
+La Aplicación **no** recopila, almacena ni transmite ninguna información de identificación personal (PII). La Aplicación funciona completamente sin conexión. Todos los datos generados durante el juego se almacenan **exclusivamente en su dispositivo** y nunca se envían a ningún servidor.
 
 **Datos almacenados localmente (nunca transmitidos):**
 
@@ -164,22 +146,13 @@ La Aplicación en sí **no** recopila, almacena ni transmite ninguna informació
 | Estado del juego guardado (tablero, tiempo transcurrido, dificultad) | Reanudar partidas interrumpidas | Base de datos SQLite local |
 | Preferencias (dificultad, tema, idioma) | Recordar su configuración | SharedPreferences (local) |
 
-#### 3. Servicios de Terceros — Google AdMob
+#### 3. Sin Servicios de Terceros
 
-La Aplicación muestra anuncios proporcionados por **Google AdMob** (Google LLC). Para mostrar anuncios relevantes, el SDK de AdMob puede recopilar automáticamente la siguiente información de su dispositivo:
+La Aplicación no integra ningún SDK de analítica, publicidad ni informes de errores. Ningún dato es compartido con terceros.
 
-- Identificador de publicidad (Google Advertising ID — GAID)
-- Información del dispositivo (modelo, versión del sistema operativo)
-- Dirección IP (utilizada para determinar la ubicación general y mostrar anuncios adecuados a la región)
-- Datos de interacción con anuncios (impresiones, clics)
+#### 4. Sin Acceso a Internet
 
-Estos datos son recopilados y procesados por Google, no por Leankar.dev. No recibimos, almacenamos ni tenemos acceso a dicha información. Las prácticas de datos de Google se rigen por la **Política de Privacidad de Google**, disponible en: https://policies.google.com/privacy
-
-**Personalización de anuncios:** Google puede usar el Advertising ID para mostrarle anuncios personalizados según sus intereses. Puede desactivar la personalización de anuncios en la configuración de su dispositivo en **Google > Anuncios > Inhabilitar la personalización de anuncios**.
-
-#### 4. Permiso de Internet
-
-La Aplicación solicita el permiso `INTERNET` exclusivamente para cargar y mostrar anuncios de Google AdMob. Ningún otro dato es transmitido por internet por la Aplicación.
+La Aplicación no solicita permiso de internet y no realiza ninguna conexión de red. Toda la funcionalidad es completamente sin conexión.
 
 #### 5. Retención y Eliminación de Datos
 
@@ -190,7 +163,7 @@ Todos los datos almacenados localmente (estadísticas, partidas guardadas y pref
 
 #### 6. Privacidad de Menores
 
-La Aplicación está dirigida al público general. No recopilamos intencionalmente información personal de niños menores de 13 años. Si usted es padre, madre o tutor y cree que su hijo ha proporcionado información personal a través de la Aplicación, comuníquese con nosotros para que podamos tomar las medidas apropiadas.
+La Aplicación es un juego apto para todas las edades. No recopila ninguna información personal de ningún usuario, incluidos los menores.
 
 #### 7. Cambios en esta Política
 
@@ -218,7 +191,7 @@ Merci de jouer à **Campo Minado Evolution** (« l'Application »), développée
 
 #### 2. Données Collectées par l'Application
 
-L'Application elle-même ne **collecte pas**, ne stocke pas et ne transmet pas d'informations personnellement identifiables (PII). Toutes les données générées pendant le jeu sont stockées **exclusivement sur votre appareil** et ne sont jamais envoyées à nos serveurs.
+L'Application ne **collecte pas**, ne stocke pas et ne transmet pas d'informations personnellement identifiables (PII). L'Application fonctionne entièrement hors ligne. Toutes les données générées pendant le jeu sont stockées **exclusivement sur votre appareil** et ne sont jamais envoyées à aucun serveur.
 
 **Données stockées localement (jamais transmises) :**
 
@@ -228,22 +201,13 @@ L'Application elle-même ne **collecte pas**, ne stocke pas et ne transmet pas d
 | État de la partie sauvegardée (plateau, temps écoulé, difficulté) | Reprendre les parties interrompues | Base de données SQLite locale |
 | Préférences (difficulté, thème, langue) | Mémoriser vos paramètres | SharedPreferences (local) |
 
-#### 3. Services Tiers — Google AdMob
+#### 3. Aucun Service Tiers
 
-L'Application affiche des publicités fournies par **Google AdMob** (Google LLC). Pour diffuser des annonces pertinentes, le SDK AdMob peut collecter automatiquement les informations suivantes depuis votre appareil :
+L'Application n'intègre aucun SDK d'analytique, de publicité ou de rapport d'erreurs. Aucune donnée n'est partagée avec des tiers.
 
-- Identifiant publicitaire (Google Advertising ID — GAID)
-- Informations sur l'appareil (modèle, version du système d'exploitation)
-- Adresse IP (utilisée pour déterminer la localisation générale et diffuser des annonces adaptées à la région)
-- Données d'interaction avec les publicités (impressions, clics)
+#### 4. Aucun Accès à Internet
 
-Ces données sont collectées et traitées par Google, et non par Leankar.dev. Nous ne recevons pas, ne stockons pas et n'avons pas accès à ces informations. Les pratiques de données de Google sont régies par la **Politique de Confidentialité de Google**, disponible à l'adresse : https://policies.google.com/privacy
-
-**Personnalisation des annonces :** Google peut utiliser l'Advertising ID pour vous afficher des annonces personnalisées en fonction de vos centres d'intérêt. Vous pouvez désactiver la personnalisation des annonces dans les paramètres de votre appareil sous **Google > Annonces > Désactiver la personnalisation des annonces**.
-
-#### 4. Permission Internet
-
-L'Application demande la permission `INTERNET` uniquement pour charger et afficher des publicités Google AdMob. Aucune autre donnée n'est transmise sur Internet par l'Application.
+L'Application ne demande pas la permission internet et n'effectue aucune connexion réseau. Toutes les fonctionnalités sont entièrement disponibles hors ligne.
 
 #### 5. Conservation et Suppression des Données
 
@@ -254,7 +218,7 @@ Toutes les données stockées localement (statistiques, parties sauvegardées et
 
 #### 6. Confidentialité des Enfants
 
-L'Application est destinée au grand public. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. Si vous êtes un parent ou tuteur légal et pensez que votre enfant a fourni des informations personnelles via l'Application, veuillez nous contacter afin que nous puissions prendre les mesures appropriées.
+L'Application est un jeu adapté à tous les âges. Elle ne collecte aucune information personnelle d'aucun utilisateur, y compris les enfants.
 
 #### 7. Modifications de cette Politique
 
@@ -282,7 +246,7 @@ Grazie per giocare a **Campo Minado Evolution** ("l'App"), sviluppata da **Leank
 
 #### 2. Dati Raccolti dall'App
 
-L'App stessa **non** raccoglie, memorizza né trasmette alcuna informazione di identificazione personale (PII). Tutti i dati generati durante il gioco vengono archiviati **esclusivamente sul tuo dispositivo** e non vengono mai inviati ai nostri server.
+L'App **non** raccoglie, memorizza né trasmette alcuna informazione di identificazione personale (PII). L'App funziona interamente offline. Tutti i dati generati durante il gioco vengono archiviati **esclusivamente sul tuo dispositivo** e non vengono mai inviati ad alcun server.
 
 **Dati archiviati localmente (mai trasmessi):**
 
@@ -292,22 +256,13 @@ L'App stessa **non** raccoglie, memorizza né trasmette alcuna informazione di i
 | Stato della partita salvata (griglia, tempo trascorso, difficoltà) | Riprendere le partite interrotte | Database SQLite locale |
 | Preferenze (difficoltà, tema, lingua) | Ricordare le tue impostazioni | SharedPreferences (locale) |
 
-#### 3. Servizi di Terze Parti — Google AdMob
+#### 3. Nessun Servizio di Terze Parti
 
-L'App mostra annunci pubblicitari forniti da **Google AdMob** (Google LLC). Per visualizzare annunci pertinenti, l'SDK di AdMob può raccogliere automaticamente le seguenti informazioni dal tuo dispositivo:
+L'App non integra alcun SDK di analisi, pubblicità o segnalazione degli errori. Nessun dato viene condiviso con terze parti.
 
-- Identificatore pubblicitario (Google Advertising ID — GAID)
-- Informazioni sul dispositivo (modello, versione del sistema operativo)
-- Indirizzo IP (utilizzato per determinare la posizione generale e mostrare annunci appropriati alla regione)
-- Dati di interazione con gli annunci (impressioni, clic)
+#### 4. Nessun Accesso a Internet
 
-Questi dati vengono raccolti ed elaborati da Google, non da Leankar.dev. Non riceviamo, non archiviamo né abbiamo accesso a tali dati. Le pratiche sui dati di Google sono disciplinate dall'**Informativa sulla Privacy di Google**, disponibile all'indirizzo: https://policies.google.com/privacy
-
-**Personalizzazione degli annunci:** Google può utilizzare l'Advertising ID per mostrarti annunci personalizzati in base ai tuoi interessi. Puoi disattivare la personalizzazione degli annunci nelle impostazioni del dispositivo in **Google > Annunci > Disattiva la personalizzazione degli annunci**.
-
-#### 4. Autorizzazione Internet
-
-L'App richiede l'autorizzazione `INTERNET` esclusivamente per caricare e visualizzare annunci di Google AdMob. Nessun altro dato viene trasmesso su Internet dall'App.
+L'App non richiede il permesso internet e non effettua alcuna connessione di rete. Tutte le funzionalità sono completamente disponibili offline.
 
 #### 5. Conservazione ed Eliminazione dei Dati
 
@@ -318,7 +273,7 @@ Tutti i dati archiviati localmente (statistiche, partite salvate e preferenze) r
 
 #### 6. Privacy dei Minori
 
-L'App è destinata al pubblico generale. Non raccogliamo consapevolmente informazioni personali da bambini di età inferiore ai 13 anni. Se sei un genitore o tutore legale e ritieni che tuo figlio abbia fornito informazioni personali tramite l'App, contattaci affinché possiamo adottare le misure appropriate.
+L'App è un gioco adatto a tutte le età. Non raccoglie alcuna informazione personale da nessun utente, inclusi i minori.
 
 #### 7. Modifiche a questa Informativa
 
