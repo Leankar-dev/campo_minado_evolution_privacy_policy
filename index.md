@@ -1,6 +1,6 @@
 # Privacy Policy / Política de Privacidade / Política de Privacidad / Politique de Confidentialité / Informativa sulla Privacy
 
-**Last updated / Última atualização / Última actualización / Dernière mise à jour / Ultimo aggiornamento:** 2026-07-30
+**Last updated / Última atualização / Última actualización / Dernière mise à jour / Ultimo aggiornamento:** 2026-09-10
 
 ---
 
@@ -18,7 +18,7 @@
 
 ### Privacy Policy — Campo Minado Evolution
 
-**Effective date:** July 30, 2026
+**Effective date:** July 30, 2026 (advertising sections last revised September 10, 2026)
 
 #### 1. Introduction
 
@@ -36,27 +36,28 @@ The App is currently available exclusively on **Google Play (Android)**. There i
 | Saved game state (board layout, elapsed time, difficulty) | Resume interrupted games | Local SQLite database |
 | Preferences (difficulty, theme, sound) | Remember your settings | SharedPreferences (local) |
 
-**B. Data collected by Start.io:**
+**B. Data collected by Unity LevelPlay (Unity Ads):**
 
-The App displays advertisements provided by **Start.io** (formerly StartApp), a third-party mobile advertising network. To serve ads, the Start.io SDK may automatically collect the following data directly from your device:
+The App displays advertisements through **Unity LevelPlay**, Unity's ad mediation platform. Ads are currently served exclusively by **Unity Ads**, Unity's own advertising network — no third-party mediation network (e.g. Meta Audience Network, Pangle, Mintegral) is enabled at this time; this policy will be updated if that changes. To serve ads, Unity LevelPlay/Unity Ads may automatically collect the following data directly from your device:
 
 | Data | Purpose |
 |---|---|
-| Android Advertising ID (ADID) | Deliver personalized or non-personalized ads |
+| Advertising ID / device identifiers | Deliver personalized or non-personalized ads |
 | IP address | Approximate, IP-based geolocation for ad targeting and fraud prevention |
 | Device information (model, OS version, language, screen size) | Ad compatibility and targeting |
-| App information (app name and category) | Ad targeting and categorization |
-| Network information (carrier, Wi-Fi, connection type, time zone) | Ad delivery and targeting |
-| Ad interaction data (impressions, clicks) | Ad performance measurement |
-| Inferred interests and behavior | Ad personalization |
+| App information (app name, category, installation identifier) | Ad targeting and categorization |
+| Session and ad interaction data (impressions, clicks, monetization events) | Ad delivery, performance measurement, and personalization |
 
-The App does not request device location permissions, so Start.io only ever receives an approximate location derived from your IP address — never precise GPS coordinates. This data is collected and processed by Start.io in accordance with the [Start.io End User Privacy Policy](https://www.start.io/policy/privacy-policy/).
+The App does not request device location permissions, so Unity only ever receives an approximate location derived from your IP address — never precise GPS coordinates. This data is collected and processed by Unity in accordance with the [Unity Game Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
-#### 3. Third-Party Advertising — Start.io
+#### 3. Third-Party Advertising — Unity LevelPlay
 
-The App integrates **Start.io** (formerly StartApp), a third-party mobile advertising network provided by Start.io Inc. Start.io displays full-screen interstitial ads between game sessions. These ads appear after at least 2 completed games and a minimum of 120 seconds since the last ad.
+The App integrates **Unity LevelPlay**, Unity's ad mediation SDK, currently mediating only **Unity Ads** (Unity's own network). The App displays two ad formats:
 
-Start.io acts as an independent data controller for the data it collects from your device. We do not access or control that data. For more information on how Start.io uses data from apps that use its services, visit the [Start.io End User Privacy Policy](https://www.start.io/policy/privacy-policy/).
+- **Interstitial ads:** full-screen ads shown between game sessions, after at least 2 completed games and a minimum of 120 seconds since the last ad.
+- **Banner ads:** a small ad bar shown at the bottom of the main menu screen and the game screen. Unlike interstitials, banner ads have no throttle — they may remain visible continuously while those screens are open.
+
+Unity acts as an independent data controller for the data it collects from your device through LevelPlay/Unity Ads. We do not access or control that data. For more information, visit the [Unity Game Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
 #### 4. Internet Access
 
@@ -69,20 +70,22 @@ The App requires internet access to load and display advertisements. No other fu
 - Clearing the App's data in your device settings (Settings > Apps > Campo Minado Evolution > Clear Data), or
 - Uninstalling the App.
 
-**Data collected by Start.io** is retained and managed by Start.io, generally for up to 12 months for users in the EU/UK, or up to 36 months for users elsewhere, per its retention policy. To request access to, correction of, or deletion of data held by Start.io, contact privacy@start.io or use the [Start.io opt-out page](https://www.start.io/do-not-sell-or-sharemy-personal-information/).
+**Data collected by Unity LevelPlay/Unity Ads** is retained and managed by Unity, generally for up to 12 months for app interaction data, per its retention policy (data needed for fraud and security purposes may be retained longer). To request access to, correction of, or deletion of data held by Unity, contact [DPO@unity3d.com](mailto:DPO@unity3d.com) or use the [Unity "Do Not Sell or Share My Personal Information" page](https://unity.com/legal/do-not-sell-my-personal-information).
 
 #### 6. Your Advertising Choices
 
-You can opt out of personalized advertising at any time:
+**In-app consent screen:** the first time you open the App, you are asked whether you allow personalized ads based on your device. If you decline, the App does not request any ad at all — neither interstitial nor banner — so no ad-related data is sent to Unity LevelPlay/Unity Ads for that purpose. You can review or change this choice at any time from **Settings > About the App > Personalized ads > Review**. This in-app choice is not a certified consent management platform (no IAB TCF, no per-vendor or per-purpose granularity) — it is a simple accept/decline control built into the App.
+
+You can also opt out of personalized advertising at any time through these additional channels:
 
 - **Device settings (Android):** Settings > Google > Ads > Delete Advertising ID, or disable "Opt out of Ads Personalization".
-- **Start.io opt-out:** email privacy@start.io, use the [AppChoices tool](http://www.aboutads.info/appchoices), or — for California residents — use the [Start.io "Do Not Sell or Share My Personal Information" page](https://www.start.io/do-not-sell-or-sharemy-personal-information/) or call 1-866-I-OPT-OUT (1-866-467-8688).
+- **Unity opt-out:** tap the "Data Privacy" icon shown within any ad, contact [DPO@unity3d.com](mailto:DPO@unity3d.com), or — for California residents — use the [Unity "Do Not Sell or Share My Personal Information" page](https://unity.com/legal/do-not-sell-my-personal-information). Note that opting out this way stops ad personalization but does not stop ads entirely — that only happens if you disable internet access, per Section 4.
 
 Opting out does not remove ads from the App; it means ads will no longer be personalized based on your interests.
 
 #### 7. Children's Privacy
 
-The App is designed for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children. However, Start.io may collect advertising identifiers from all users as described in Section 2. If you are a parent or guardian and believe your child is using this App, you can delete or disable the Advertising ID on the device via the settings described in Section 6.
+The App is designed for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children. However, Unity LevelPlay/Unity Ads may collect advertising identifiers from all users as described in Section 2. If you are a parent or guardian and believe your child is using this App, you can delete or disable the Advertising ID on the device via the settings described in Section 6.
 
 #### 8. Changes to This Policy
 
@@ -102,7 +105,7 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 
 ### Política de Privacidade — Campo Minado Evolution
 
-**Data de vigência:** 30 de julho de 2026
+**Data de vigência:** 30 de julho de 2026 (seções de publicidade revisadas em 10 de setembro de 2026)
 
 #### 1. Introdução
 
@@ -120,27 +123,28 @@ O Aplicativo está disponível atualmente apenas no **Google Play (Android)**. N
 | Estado de jogo salvo (tabuleiro, tempo decorrido, dificuldade) | Retomar jogos interrompidos | Banco de dados SQLite local |
 | Preferências (dificuldade, tema, som) | Lembrar suas configurações | SharedPreferences (local) |
 
-**B. Dados coletados pelo Start.io:**
+**B. Dados coletados pelo Unity LevelPlay (Unity Ads):**
 
-O Aplicativo exibe anúncios fornecidos pelo **Start.io** (antigo StartApp), uma rede de publicidade móvel de terceiros. Para exibir os anúncios, o SDK do Start.io pode coletar automaticamente os seguintes dados diretamente do seu dispositivo:
+O Aplicativo exibe anúncios por meio do **Unity LevelPlay**, a plataforma de mediação de anúncios da Unity. Atualmente os anúncios são servidos exclusivamente pela **Unity Ads**, a rede de publicidade própria da Unity — nenhuma rede de mediação de terceiros (ex.: Meta Audience Network, Pangle, Mintegral) está habilitada no momento; esta política será atualizada caso isso mude. Para exibir os anúncios, o Unity LevelPlay/Unity Ads pode coletar automaticamente os seguintes dados diretamente do seu dispositivo:
 
 | Dado | Finalidade |
 |---|---|
-| ID de publicidade do Android (ADID) | Exibir anúncios personalizados ou não personalizados |
+| ID de publicidade / identificadores do dispositivo | Exibir anúncios personalizados ou não personalizados |
 | Endereço IP | Geolocalização aproximada baseada em IP, para segmentação de anúncios e prevenção de fraudes |
 | Informações do dispositivo (modelo, versão do SO, idioma, tamanho de tela) | Compatibilidade e segmentação de anúncios |
-| Informações do aplicativo (nome e categoria) | Segmentação e categorização de anúncios |
-| Informações de rede (operadora, Wi-Fi, tipo de conexão, fuso horário) | Entrega e segmentação de anúncios |
-| Dados de interação com anúncios (impressões, cliques) | Medição de desempenho dos anúncios |
-| Interesses e comportamento inferidos | Personalização de anúncios |
+| Informações do aplicativo (nome, categoria, identificador de instalação) | Segmentação e categorização de anúncios |
+| Dados de sessão e interação com anúncios (impressões, cliques, eventos de monetização) | Entrega, medição de desempenho e personalização de anúncios |
 
-O Aplicativo não solicita permissão de localização do dispositivo, portanto o Start.io recebe apenas uma localização aproximada derivada do seu endereço IP — nunca coordenadas GPS precisas. Esses dados são coletados e processados pelo Start.io conforme a [Política de Privacidade do Usuário Final do Start.io](https://www.start.io/policy/privacy-policy/).
+O Aplicativo não solicita permissão de localização do dispositivo, portanto a Unity recebe apenas uma localização aproximada derivada do seu endereço IP — nunca coordenadas GPS precisas. Esses dados são coletados e processados pela Unity conforme a [Política de Privacidade para Jogadores e Usuários de Apps da Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
-#### 3. Publicidade de Terceiros — Start.io
+#### 3. Publicidade de Terceiros — Unity LevelPlay
 
-O Aplicativo integra o **Start.io** (antigo StartApp), uma rede de publicidade móvel de terceiros fornecida pela Start.io Inc. O Start.io exibe anúncios intersticiais em tela cheia entre as partidas. Esses anúncios aparecem após no mínimo 2 partidas concluídas e 120 segundos desde o último anúncio exibido.
+O Aplicativo integra o **Unity LevelPlay**, o SDK de mediação de anúncios da Unity, mediando atualmente apenas a **Unity Ads** (rede própria da Unity). O Aplicativo exibe dois formatos de anúncio:
 
-O Start.io atua como controlador independente de dados para as informações que coleta do seu dispositivo. Não temos acesso nem controle sobre esses dados. Para mais informações sobre como o Start.io utiliza dados de aplicativos que usam seus serviços, acesse a [Política de Privacidade do Usuário Final do Start.io](https://www.start.io/policy/privacy-policy/).
+- **Anúncios intersticiais:** anúncios em tela cheia exibidos entre as partidas, após no mínimo 2 partidas concluídas e 120 segundos desde o último anúncio exibido.
+- **Anúncios em banner:** uma barra de anúncio exibida no rodapé da tela de menu principal e da tela de jogo. Diferente do intersticial, o banner não tem limite de frequência — pode permanecer visível continuamente enquanto essas telas estiverem abertas.
+
+A Unity atua como controladora independente de dados para as informações que coleta do seu dispositivo por meio do LevelPlay/Unity Ads. Não temos acesso nem controle sobre esses dados. Para mais informações, acesse a [Política de Privacidade para Jogadores e Usuários de Apps da Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
 #### 4. Acesso à Internet
 
@@ -153,20 +157,22 @@ O Aplicativo requer acesso à internet para carregar e exibir anúncios. Nenhuma
 - Limpando os dados do Aplicativo nas configurações do dispositivo (Configurações > Aplicativos > Campo Minado Evolution > Limpar dados), ou
 - Desinstalando o Aplicativo.
 
-**Dados coletados pelo Start.io** são retidos e gerenciados pelo Start.io, geralmente por até 12 meses para usuários na UE/Reino Unido, ou até 36 meses para usuários de outras regiões, conforme sua política de retenção. Para solicitar acesso, correção ou exclusão dos dados mantidos pelo Start.io, entre em contato pelo e-mail privacy@start.io ou utilize a [página de opt-out do Start.io](https://www.start.io/do-not-sell-or-sharemy-personal-information/).
+**Dados coletados pelo Unity LevelPlay/Unity Ads** são retidos e gerenciados pela Unity, geralmente por até 12 meses no caso de dados de interação com o app, conforme sua política de retenção (dados necessários para prevenção de fraude e segurança podem ser retidos por mais tempo). Para solicitar acesso, correção ou exclusão dos dados mantidos pela Unity, entre em contato pelo e-mail [DPO@unity3d.com](mailto:DPO@unity3d.com) ou utilize a [página "Do Not Sell or Share My Personal Information" da Unity](https://unity.com/legal/do-not-sell-my-personal-information).
 
 #### 6. Suas Opções de Publicidade
 
-Você pode optar por não receber anúncios personalizados a qualquer momento:
+**Tela de consentimento no aplicativo:** na primeira vez que você abre o Aplicativo, é perguntado se você permite anúncios personalizados com base no seu dispositivo. Se você recusar, o Aplicativo não solicita nenhum anúncio — nem intersticial, nem banner — então nenhum dado relacionado a anúncios é enviado ao Unity LevelPlay/Unity Ads para essa finalidade. Você pode revisar ou alterar essa escolha a qualquer momento em **Definições > Sobre o App > Anúncios personalizados > Revisar**. Essa escolha no aplicativo não é uma plataforma de consentimento certificada (sem IAB TCF, sem granularidade por finalidade ou fornecedor) — é um controle simples de permitir/recusar embutido no Aplicativo.
+
+Você também pode optar por não receber anúncios personalizados a qualquer momento por estes outros canais:
 
 - **Configurações do dispositivo (Android):** Configurações > Google > Anúncios > Excluir ID de publicidade ou desativar "Cancelar personalização de anúncios".
-- **Opt-out do Start.io:** envie um e-mail para privacy@start.io, utilize a [ferramenta AppChoices](http://www.aboutads.info/appchoices) ou, se você reside na Califórnia, use a [página "Do Not Sell or Share My Personal Information" do Start.io](https://www.start.io/do-not-sell-or-sharemy-personal-information/) ou ligue para 1-866-I-OPT-OUT (1-866-467-8688).
+- **Opt-out da Unity:** toque no ícone "Data Privacy" exibido dentro de qualquer anúncio, entre em contato pelo e-mail [DPO@unity3d.com](mailto:DPO@unity3d.com) ou, se você reside na Califórnia, use a [página "Do Not Sell or Share My Personal Information" da Unity](https://unity.com/legal/do-not-sell-my-personal-information). Optar por essa via interrompe a personalização, mas não interrompe a exibição de anúncios — isso só acontece se você desativar o acesso à internet, conforme a Seção 4.
 
 Optar por não receber anúncios personalizados não remove os anúncios do Aplicativo; significa apenas que eles não serão baseados nos seus interesses.
 
 #### 7. Privacidade de Crianças
 
-O Aplicativo é destinado ao público geral e não é direcionado a crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças. No entanto, o Start.io pode coletar identificadores de publicidade de todos os usuários, conforme descrito na Seção 2. Se você é pai, mãe ou responsável legal e acredita que uma criança está utilizando este Aplicativo, é possível excluir ou desativar o ID de publicidade do dispositivo por meio das configurações descritas na Seção 6.
+O Aplicativo é destinado ao público geral e não é direcionado a crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças. No entanto, o Unity LevelPlay/Unity Ads pode coletar identificadores de publicidade de todos os usuários, conforme descrito na Seção 2. Se você é pai, mãe ou responsável legal e acredita que uma criança está utilizando este Aplicativo, é possível excluir ou desativar o ID de publicidade do dispositivo por meio das configurações descritas na Seção 6.
 
 #### 8. Alterações nesta Política
 
@@ -186,7 +192,7 @@ Em caso de dúvidas ou preocupações sobre esta Política de Privacidade, entre
 
 ### Política de Privacidad — Campo Minado Evolution
 
-**Fecha de vigencia:** 30 de julio de 2026
+**Fecha de vigencia:** 30 de julio de 2026 (secciones de publicidad revisadas el 10 de septiembre de 2026)
 
 #### 1. Introducción
 
@@ -204,27 +210,28 @@ La Aplicación está disponible actualmente solo en **Google Play (Android)**. N
 | Estado del juego guardado (tablero, tiempo transcurrido, dificultad) | Reanudar partidas interrumpidas | Base de datos SQLite local |
 | Preferencias (dificultad, tema, sonido) | Recordar su configuración | SharedPreferences (local) |
 
-**B. Datos recopilados por Start.io:**
+**B. Datos recopilados por Unity LevelPlay (Unity Ads):**
 
-La Aplicación muestra anuncios proporcionados por **Start.io** (anteriormente StartApp), una red de publicidad móvil de terceros. Para mostrar los anuncios, el SDK de Start.io puede recopilar automáticamente los siguientes datos directamente desde su dispositivo:
+La Aplicación muestra anuncios a través de **Unity LevelPlay**, la plataforma de mediación de anuncios de Unity. Actualmente los anuncios se sirven exclusivamente mediante **Unity Ads**, la red publicitaria propia de Unity — ninguna red de mediación de terceros (p. ej. Meta Audience Network, Pangle, Mintegral) está habilitada por el momento; esta política se actualizará si eso cambia. Para mostrar los anuncios, Unity LevelPlay/Unity Ads puede recopilar automáticamente los siguientes datos directamente desde su dispositivo:
 
 | Dato | Finalidad |
 |---|---|
-| ID de publicidad de Android (ADID) | Mostrar anuncios personalizados o no personalizados |
+| ID de publicidad / identificadores del dispositivo | Mostrar anuncios personalizados o no personalizados |
 | Dirección IP | Geolocalización aproximada basada en IP, para segmentación de anuncios y prevención de fraudes |
 | Información del dispositivo (modelo, versión del SO, idioma, tamaño de pantalla) | Compatibilidad y segmentación de anuncios |
-| Información de la aplicación (nombre y categoría) | Segmentación y categorización de anuncios |
-| Información de red (operador, Wi-Fi, tipo de conexión, zona horaria) | Entrega y segmentación de anuncios |
-| Datos de interacción con anuncios (impresiones, clics) | Medición del rendimiento de los anuncios |
-| Intereses y comportamiento inferidos | Personalización de anuncios |
+| Información de la aplicación (nombre, categoría, identificador de instalación) | Segmentación y categorización de anuncios |
+| Datos de sesión e interacción con anuncios (impresiones, clics, eventos de monetización) | Entrega, medición de rendimiento y personalización de anuncios |
 
-La Aplicación no solicita permiso de ubicación del dispositivo, por lo que Start.io solo recibe una ubicación aproximada derivada de su dirección IP, nunca coordenadas GPS precisas. Estos datos son recopilados y procesados por Start.io de acuerdo con la [Política de Privacidad del Usuario Final de Start.io](https://www.start.io/policy/privacy-policy/).
+La Aplicación no solicita permiso de ubicación del dispositivo, por lo que Unity solo recibe una ubicación aproximada derivada de su dirección IP, nunca coordenadas GPS precisas. Estos datos son recopilados y procesados por Unity de acuerdo con la [Política de Privacidad para Jugadores y Usuarios de Apps de Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
-#### 3. Publicidad de Terceros — Start.io
+#### 3. Publicidad de Terceros — Unity LevelPlay
 
-La Aplicación integra **Start.io** (anteriormente StartApp), una red de publicidad móvil de terceros proporcionada por Start.io Inc. Start.io muestra anuncios intersticiales a pantalla completa entre partidas. Estos anuncios aparecen después de al menos 2 partidas completadas y un mínimo de 120 segundos desde el último anuncio mostrado.
+La Aplicación integra **Unity LevelPlay**, el SDK de mediación de anuncios de Unity, que actualmente media solo **Unity Ads** (red propia de Unity). La Aplicación muestra dos formatos de anuncio:
 
-Start.io actúa como controlador de datos independiente respecto a los datos que recopila de su dispositivo. No tenemos acceso ni control sobre dichos datos. Para más información sobre cómo Start.io utiliza los datos de aplicaciones que usan sus servicios, visite la [Política de Privacidad del Usuario Final de Start.io](https://www.start.io/policy/privacy-policy/).
+- **Anuncios intersticiales:** anuncios a pantalla completa mostrados entre partidas, después de al menos 2 partidas completadas y 120 segundos desde el último anuncio mostrado.
+- **Anuncios en banner:** una barra publicitaria mostrada en la parte inferior de la pantalla del menú principal y de la pantalla de juego. A diferencia del intersticial, el banner no tiene límite de frecuencia — puede permanecer visible de forma continua mientras esas pantallas estén abiertas.
+
+Unity actúa como controlador de datos independiente respecto a los datos que recopila de su dispositivo a través de LevelPlay/Unity Ads. No tenemos acceso ni control sobre dichos datos. Para más información, visite la [Política de Privacidad para Jugadores y Usuarios de Apps de Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
 #### 4. Acceso a Internet
 
@@ -237,20 +244,22 @@ La Aplicación requiere acceso a internet para cargar y mostrar anuncios. Ningun
 - Borrando los datos de la Aplicación en la configuración del dispositivo (Ajustes > Aplicaciones > Campo Minado Evolution > Borrar datos), o
 - Desinstalando la Aplicación.
 
-**Los datos recopilados por Start.io** son retenidos y gestionados por Start.io, generalmente hasta 12 meses para usuarios en la UE/Reino Unido, o hasta 36 meses para usuarios de otras regiones, según su política de retención. Para solicitar acceso, corrección o eliminación de los datos que Start.io conserva, escriba a privacy@start.io o utilice la [página de exclusión de Start.io](https://www.start.io/do-not-sell-or-sharemy-personal-information/).
+**Los datos recopilados por Unity LevelPlay/Unity Ads** son retenidos y gestionados por Unity, generalmente hasta 12 meses para los datos de interacción con la app, según su política de retención (los datos necesarios para prevención de fraude y seguridad pueden conservarse por más tiempo). Para solicitar acceso, corrección o eliminación de los datos que Unity conserva, escriba a [DPO@unity3d.com](mailto:DPO@unity3d.com) o utilice la [página "Do Not Sell or Share My Personal Information" de Unity](https://unity.com/legal/do-not-sell-my-personal-information).
 
 #### 6. Sus Opciones Publicitarias
 
-Puede optar por no recibir publicidad personalizada en cualquier momento:
+**Pantalla de consentimiento en la app:** la primera vez que abre la Aplicación, se le pregunta si permite anuncios personalizados según su dispositivo. Si rechaza, la Aplicación no solicita ningún anuncio — ni intersticial ni banner — por lo que no se envía ningún dato relacionado con anuncios a Unity LevelPlay/Unity Ads para ese fin. Puede revisar o cambiar esta elección en cualquier momento desde **Ajustes > Sobre la App > Anuncios personalizados > Revisar**. Esta elección dentro de la app no es una plataforma de consentimiento certificada (sin IAB TCF, sin granularidad por finalidad o proveedor) — es un control simple de permitir/rechazar integrado en la Aplicación.
+
+También puede optar por no recibir publicidad personalizada en cualquier momento a través de estos otros canales:
 
 - **Configuración del dispositivo (Android):** Configuración > Google > Anuncios > Eliminar ID de publicidad o desactivar "Inhabilitar la personalización de anuncios".
-- **Exclusión de Start.io:** escriba a privacy@start.io, utilice la [herramienta AppChoices](http://www.aboutads.info/appchoices) o, si reside en California, use la [página "Do Not Sell or Share My Personal Information" de Start.io](https://www.start.io/do-not-sell-or-sharemy-personal-information/) o llame al 1-866-I-OPT-OUT (1-866-467-8688).
+- **Exclusión de Unity:** toque el icono "Data Privacy" que se muestra dentro de cualquier anuncio, escriba a [DPO@unity3d.com](mailto:DPO@unity3d.com) o, si reside en California, use la [página "Do Not Sell or Share My Personal Information" de Unity](https://unity.com/legal/do-not-sell-my-personal-information). Optar por esta vía detiene la personalización, pero no detiene la exhibición de anuncios — eso solo ocurre si desactiva el acceso a internet, según la Sección 4.
 
 Optar por no recibirlos no elimina los anuncios de la Aplicación; significa que los anuncios ya no se personalizarán según sus intereses.
 
 #### 7. Privacidad de Menores
 
-La Aplicación está diseñada para el público en general y no está dirigida a menores de 13 años. No recopilamos intencionalmente información personal de menores. No obstante, Start.io puede recopilar identificadores publicitarios de todos los usuarios, tal como se describe en la Sección 2. Si usted es padre, madre o tutor legal y cree que un menor está usando esta Aplicación, puede eliminar o desactivar el ID de publicidad del dispositivo a través de la configuración descrita en la Sección 6.
+La Aplicación está diseñada para el público en general y no está dirigida a menores de 13 años. No recopilamos intencionalmente información personal de menores. No obstante, Unity LevelPlay/Unity Ads puede recopilar identificadores publicitarios de todos los usuarios, tal como se describe en la Sección 2. Si usted es padre, madre o tutor legal y cree que un menor está usando esta Aplicación, puede eliminar o desactivar el ID de publicidad del dispositivo a través de la configuración descrita en la Sección 6.
 
 #### 8. Cambios en esta Política
 
@@ -270,7 +279,7 @@ Si tiene preguntas o inquietudes sobre esta Política de Privacidad, contácteno
 
 ### Politique de Confidentialité — Campo Minado Evolution
 
-**Date d'entrée en vigueur :** 30 juillet 2026
+**Date d'entrée en vigueur :** 30 juillet 2026 (sections publicitaires révisées le 10 septembre 2026)
 
 #### 1. Introduction
 
@@ -288,27 +297,28 @@ L'Application est actuellement disponible uniquement sur **Google Play (Android)
 | État de la partie sauvegardée (plateau, temps écoulé, difficulté) | Reprendre les parties interrompues | Base de données SQLite locale |
 | Préférences (difficulté, thème, son) | Mémoriser vos paramètres | SharedPreferences (local) |
 
-**B. Données collectées par Start.io :**
+**B. Données collectées par Unity LevelPlay (Unity Ads) :**
 
-L'Application affiche des publicités fournies par **Start.io** (anciennement StartApp), un réseau publicitaire mobile tiers. Pour diffuser les publicités, le SDK Start.io peut collecter automatiquement les données suivantes directement depuis votre appareil :
+L'Application affiche des publicités via **Unity LevelPlay**, la plateforme de médiation publicitaire d'Unity. Les publicités sont actuellement diffusées exclusivement par **Unity Ads**, le réseau publicitaire propre d'Unity — aucun réseau de médiation tiers (p. ex. Meta Audience Network, Pangle, Mintegral) n'est activé pour le moment ; cette politique sera mise à jour si cela change. Pour diffuser les publicités, Unity LevelPlay/Unity Ads peut collecter automatiquement les données suivantes directement depuis votre appareil :
 
 | Donnée | Finalité |
 |---|---|
-| Identifiant publicitaire Android (ADID) | Diffuser des publicités personnalisées ou non personnalisées |
+| Identifiant publicitaire / identifiants de l'appareil | Diffuser des publicités personnalisées ou non personnalisées |
 | Adresse IP | Géolocalisation approximative basée sur l'IP, pour le ciblage publicitaire et la prévention des fraudes |
 | Informations sur l'appareil (modèle, version du système d'exploitation, langue, taille d'écran) | Compatibilité et ciblage publicitaire |
-| Informations sur l'application (nom et catégorie) | Ciblage et catégorisation publicitaire |
-| Informations réseau (opérateur, Wi-Fi, type de connexion, fuseau horaire) | Diffusion et ciblage des publicités |
-| Données d'interaction avec les publicités (impressions, clics) | Mesure des performances publicitaires |
-| Intérêts et comportement déduits | Personnalisation publicitaire |
+| Informations sur l'application (nom, catégorie, identifiant d'installation) | Ciblage et catégorisation publicitaire |
+| Données de session et d'interaction avec les publicités (impressions, clics, événements de monétisation) | Diffusion, mesure des performances et personnalisation publicitaire |
 
-L'Application ne demande aucune autorisation de localisation de l'appareil ; Start.io ne reçoit donc qu'une localisation approximative dérivée de votre adresse IP, jamais de coordonnées GPS précises. Ces données sont collectées et traitées par Start.io conformément à la [Politique de Confidentialité des Utilisateurs Finaux de Start.io](https://www.start.io/policy/privacy-policy/).
+L'Application ne demande aucune autorisation de localisation de l'appareil ; Unity ne reçoit donc qu'une localisation approximative dérivée de votre adresse IP, jamais de coordonnées GPS précises. Ces données sont collectées et traitées par Unity conformément à la [Politique de Confidentialité pour les Joueurs et Utilisateurs d'Applications d'Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
-#### 3. Publicité Tierce — Start.io
+#### 3. Publicité Tierce — Unity LevelPlay
 
-L'Application intègre **Start.io** (anciennement StartApp), un réseau publicitaire mobile tiers fourni par Start.io Inc. Start.io affiche des publicités interstitielles en plein écran entre les parties. Ces publicités apparaissent après au moins 2 parties terminées et un minimum de 120 secondes depuis la dernière publicité affichée.
+L'Application intègre **Unity LevelPlay**, le SDK de médiation publicitaire d'Unity, qui ne fait actuellement appel qu'à **Unity Ads** (réseau propre d'Unity). L'Application affiche deux formats de publicité :
 
-Start.io agit en tant que responsable du traitement indépendant pour les données qu'il collecte depuis votre appareil. Nous n'avons pas accès à ces données et n'en avons pas le contrôle. Pour plus d'informations sur la façon dont Start.io utilise les données des applications qui utilisent ses services, consultez la [Politique de Confidentialité des Utilisateurs Finaux de Start.io](https://www.start.io/policy/privacy-policy/).
+- **Publicités interstitielles :** publicités en plein écran affichées entre les parties, après au moins 2 parties terminées et 120 secondes depuis la dernière publicité affichée.
+- **Publicités bannière :** une barre publicitaire affichée en bas de l'écran du menu principal et de l'écran de jeu. Contrairement à l'interstitiel, la bannière n'a pas de limite de fréquence — elle peut rester visible en continu tant que ces écrans sont ouverts.
+
+Unity agit en tant que responsable du traitement indépendant pour les données qu'il collecte depuis votre appareil via LevelPlay/Unity Ads. Nous n'avons pas accès à ces données et n'en avons pas le contrôle. Pour plus d'informations, consultez la [Politique de Confidentialité pour les Joueurs et Utilisateurs d'Applications d'Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
 #### 4. Accès à Internet
 
@@ -321,20 +331,22 @@ L'Application nécessite un accès à internet pour charger et afficher des publ
 - En effaçant les données de l'Application dans les paramètres de votre appareil (Paramètres > Applications > Campo Minado Evolution > Effacer les données), ou
 - En désinstallant l'Application.
 
-**Les données collectées par Start.io** sont conservées et gérées par Start.io, généralement jusqu'à 12 mois pour les utilisateurs de l'UE/Royaume-Uni, ou jusqu'à 36 mois pour les utilisateurs des autres régions, conformément à sa politique de conservation. Pour demander l'accès, la correction ou la suppression des données détenues par Start.io, contactez privacy@start.io ou utilisez la [page de désinscription de Start.io](https://www.start.io/do-not-sell-or-sharemy-personal-information/).
+**Les données collectées par Unity LevelPlay/Unity Ads** sont conservées et gérées par Unity, généralement jusqu'à 12 mois pour les données d'interaction avec l'application, conformément à sa politique de conservation (les données nécessaires à la prévention de la fraude et à la sécurité peuvent être conservées plus longtemps). Pour demander l'accès, la correction ou la suppression des données détenues par Unity, contactez [DPO@unity3d.com](mailto:DPO@unity3d.com) ou utilisez la [page « Do Not Sell or Share My Personal Information » d'Unity](https://unity.com/legal/do-not-sell-my-personal-information).
 
 #### 6. Vos Choix Publicitaires
 
-Vous pouvez vous désabonner de la publicité personnalisée à tout moment :
+**Écran de consentement dans l'application :** la première fois que vous ouvrez l'Application, il vous est demandé si vous autorisez des publicités personnalisées basées sur votre appareil. Si vous refusez, l'Application ne demande aucune publicité — ni interstitielle, ni bannière — aucune donnée liée aux publicités n'est donc envoyée à Unity LevelPlay/Unity Ads à cette fin. Vous pouvez revoir ou modifier ce choix à tout moment depuis **Paramètres > À propos > Publicités personnalisées > Revoir**. Ce choix dans l'application n'est pas une plateforme de consentement certifiée (pas d'IAB TCF, pas de granularité par finalité ou par fournisseur) — c'est un simple contrôle autoriser/refuser intégré à l'Application.
+
+Vous pouvez également vous désabonner de la publicité personnalisée à tout moment via ces autres canaux :
 
 - **Paramètres de l'appareil (Android) :** Paramètres > Google > Annonces > Supprimer l'identifiant publicitaire ou désactiver « Désactiver la personnalisation des annonces ».
-- **Désinscription Start.io :** envoyez un e-mail à privacy@start.io, utilisez l'[outil AppChoices](http://www.aboutads.info/appchoices) ou, si vous résidez en Californie, utilisez la [page « Do Not Sell or Share My Personal Information » de Start.io](https://www.start.io/do-not-sell-or-sharemy-personal-information/) ou appelez le 1-866-I-OPT-OUT (1-866-467-8688).
+- **Désinscription Unity :** appuyez sur l'icône « Data Privacy » affichée dans n'importe quelle publicité, contactez [DPO@unity3d.com](mailto:DPO@unity3d.com) ou, si vous résidez en Californie, utilisez la [page « Do Not Sell or Share My Personal Information » d'Unity](https://unity.com/legal/do-not-sell-my-personal-information). Cette désinscription arrête la personnalisation, mais pas l'affichage des publicités — cela n'arrive que si vous désactivez l'accès à internet, conformément à la Section 4.
 
 Se désabonner ne supprime pas les publicités de l'Application ; cela signifie simplement qu'elles ne seront plus personnalisées selon vos centres d'intérêt.
 
 #### 7. Confidentialité des Enfants
 
-L'Application est conçue pour un public général et n'est pas destinée aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnelles auprès des enfants. Cependant, Start.io peut collecter des identifiants publicitaires auprès de tous les utilisateurs, comme décrit à la Section 2. Si vous êtes parent ou tuteur légal et pensez que votre enfant utilise cette Application, vous pouvez supprimer ou désactiver l'identifiant publicitaire de l'appareil via les paramètres décrits à la Section 6.
+L'Application est conçue pour un public général et n'est pas destinée aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnelles auprès des enfants. Cependant, Unity LevelPlay/Unity Ads peut collecter des identifiants publicitaires auprès de tous les utilisateurs, comme décrit à la Section 2. Si vous êtes parent ou tuteur légal et pensez que votre enfant utilise cette Application, vous pouvez supprimer ou désactiver l'identifiant publicitaire de l'appareil via les paramètres décrits à la Section 6.
 
 #### 8. Modifications de cette Politique
 
@@ -354,7 +366,7 @@ Si vous avez des questions ou des préoccupations concernant cette Politique de 
 
 ### Informativa sulla Privacy — Campo Minado Evolution
 
-**Data di entrata in vigore:** 30 luglio 2026
+**Data di entrata in vigore:** 30 luglio 2026 (sezioni pubblicitarie riviste il 10 settembre 2026)
 
 #### 1. Introduzione
 
@@ -372,27 +384,28 @@ L'App è attualmente disponibile esclusivamente su **Google Play (Android)**. Al
 | Stato della partita salvata (griglia, tempo trascorso, difficoltà) | Riprendere le partite interrotte | Database SQLite locale |
 | Preferenze (difficoltà, tema, suono) | Ricordare le tue impostazioni | SharedPreferences (locale) |
 
-**B. Dati raccolti da Start.io:**
+**B. Dati raccolti da Unity LevelPlay (Unity Ads):**
 
-L'App mostra annunci pubblicitari forniti da **Start.io** (in precedenza StartApp), una rete pubblicitaria mobile di terze parti. Per erogare gli annunci, l'SDK di Start.io può raccogliere automaticamente i seguenti dati direttamente dal tuo dispositivo:
+L'App mostra annunci pubblicitari tramite **Unity LevelPlay**, la piattaforma di mediazione pubblicitaria di Unity. Gli annunci sono attualmente erogati esclusivamente da **Unity Ads**, la rete pubblicitaria propria di Unity — nessuna rete di mediazione di terze parti (es. Meta Audience Network, Pangle, Mintegral) è attiva al momento; questa informativa sarà aggiornata qualora ciò cambiasse. Per erogare gli annunci, Unity LevelPlay/Unity Ads può raccogliere automaticamente i seguenti dati direttamente dal tuo dispositivo:
 
 | Dato | Finalità |
 |---|---|
-| ID pubblicità Android (ADID) | Mostrare annunci personalizzati o non personalizzati |
+| ID pubblicità / identificatori del dispositivo | Mostrare annunci personalizzati o non personalizzati |
 | Indirizzo IP | Geolocalizzazione approssimativa basata sull'IP, per la targetizzazione degli annunci e la prevenzione delle frodi |
 | Informazioni sul dispositivo (modello, versione del sistema operativo, lingua, dimensioni dello schermo) | Compatibilità e targetizzazione degli annunci |
-| Informazioni sull'app (nome e categoria) | Targetizzazione e categorizzazione degli annunci |
-| Informazioni di rete (operatore, Wi-Fi, tipo di connessione, fuso orario) | Erogazione e targetizzazione degli annunci |
-| Dati di interazione con gli annunci (impressioni, clic) | Misurazione delle prestazioni degli annunci |
-| Interessi e comportamento dedotti | Personalizzazione degli annunci |
+| Informazioni sull'app (nome, categoria, identificatore di installazione) | Targetizzazione e categorizzazione degli annunci |
+| Dati di sessione e interazione con gli annunci (impressioni, clic, eventi di monetizzazione) | Erogazione, misurazione delle prestazioni e personalizzazione degli annunci |
 
-L'App non richiede il permesso di localizzazione del dispositivo, quindi Start.io riceve solo una posizione approssimativa derivata dal tuo indirizzo IP, mai coordinate GPS precise. Questi dati sono raccolti e trattati da Start.io in conformità con l'[Informativa sulla Privacy per gli Utenti Finali di Start.io](https://www.start.io/policy/privacy-policy/).
+L'App non richiede il permesso di localizzazione del dispositivo, quindi Unity riceve solo una posizione approssimativa derivata dal tuo indirizzo IP, mai coordinate GPS precise. Questi dati sono raccolti e trattati da Unity in conformità con l'[Informativa sulla Privacy per Giocatori e Utenti di App di Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
-#### 3. Pubblicità di Terze Parti — Start.io
+#### 3. Pubblicità di Terze Parti — Unity LevelPlay
 
-L'App integra **Start.io** (in precedenza StartApp), una rete pubblicitaria mobile di terze parti fornita da Start.io Inc. Start.io mostra annunci interstitial a schermo intero tra le partite. Questi annunci vengono mostrati dopo almeno 2 partite completate e un minimo di 120 secondi dall'ultimo annuncio visualizzato.
+L'App integra **Unity LevelPlay**, l'SDK di mediazione pubblicitaria di Unity, che al momento media solo **Unity Ads** (rete propria di Unity). L'App mostra due formati di annuncio:
 
-Start.io agisce come titolare del trattamento indipendente per i dati che raccoglie dal tuo dispositivo. Non abbiamo accesso né controllo su tali dati. Per ulteriori informazioni su come Start.io utilizza i dati delle app che usano i suoi servizi, visita l'[Informativa sulla Privacy per gli Utenti Finali di Start.io](https://www.start.io/policy/privacy-policy/).
+- **Annunci interstitial:** annunci a schermo intero mostrati tra le partite, dopo almeno 2 partite completate e un minimo di 120 secondi dall'ultimo annuncio visualizzato.
+- **Annunci banner:** una barra pubblicitaria mostrata in fondo alla schermata del menu principale e alla schermata di gioco. A differenza dell'interstitial, il banner non ha limiti di frequenza — può rimanere visibile in modo continuo mentre quelle schermate sono aperte.
+
+Unity agisce come titolare del trattamento indipendente per i dati che raccoglie dal tuo dispositivo tramite LevelPlay/Unity Ads. Non abbiamo accesso né controllo su tali dati. Per ulteriori informazioni, visita l'[Informativa sulla Privacy per Giocatori e Utenti di App di Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
 #### 4. Accesso a Internet
 
@@ -405,20 +418,22 @@ L'App richiede l'accesso a internet per caricare e mostrare annunci pubblicitari
 - Cancellando i dati dell'App nelle impostazioni del dispositivo (Impostazioni > App > Campo Minado Evolution > Cancella dati), oppure
 - Disinstallando l'App.
 
-**I dati raccolti da Start.io** sono conservati e gestiti da Start.io, generalmente fino a 12 mesi per gli utenti nell'UE/Regno Unito, o fino a 36 mesi per gli utenti di altre regioni, secondo la sua politica di conservazione. Per richiedere l'accesso, la correzione o l'eliminazione dei dati detenuti da Start.io, contatta privacy@start.io oppure utilizza la [pagina di opt-out di Start.io](https://www.start.io/do-not-sell-or-sharemy-personal-information/).
+**I dati raccolti da Unity LevelPlay/Unity Ads** sono conservati e gestiti da Unity, generalmente fino a 12 mesi per i dati di interazione con l'app, secondo la sua politica di conservazione (i dati necessari per la prevenzione delle frodi e la sicurezza possono essere conservati più a lungo). Per richiedere l'accesso, la correzione o l'eliminazione dei dati detenuti da Unity, contatta [DPO@unity3d.com](mailto:DPO@unity3d.com) oppure utilizza la [pagina "Do Not Sell or Share My Personal Information" di Unity](https://unity.com/legal/do-not-sell-my-personal-information).
 
 #### 6. Le Tue Scelte Pubblicitarie
 
-Puoi rinunciare alla pubblicità personalizzata in qualsiasi momento:
+**Schermata di consenso nell'app:** la prima volta che apri l'App, ti viene chiesto se consenti annunci personalizzati in base al tuo dispositivo. Se rifiuti, l'App non richiede alcun annuncio — né interstitial né banner — quindi nessun dato relativo agli annunci viene inviato a Unity LevelPlay/Unity Ads per tale scopo. Puoi rivedere o modificare questa scelta in qualsiasi momento da **Impostazioni > Info sull'App > Annunci personalizzati > Rivedi**. Questa scelta nell'app non è una piattaforma di consenso certificata (senza IAB TCF, senza granularità per finalità o fornitore) — è un semplice controllo consenti/rifiuta integrato nell'App.
+
+Puoi inoltre rinunciare alla pubblicità personalizzata in qualsiasi momento tramite questi altri canali:
 
 - **Impostazioni del dispositivo (Android):** Impostazioni > Google > Annunci > Elimina ID pubblicità o disattiva "Rifiuta personalizzazione annunci".
-- **Opt-out Start.io:** invia un'e-mail a privacy@start.io, utilizza lo [strumento AppChoices](http://www.aboutads.info/appchoices) oppure, se risiedi in California, usa la [pagina "Do Not Sell or Share My Personal Information" di Start.io](https://www.start.io/do-not-sell-or-sharemy-personal-information/) o chiama il numero 1-866-I-OPT-OUT (1-866-467-8688).
+- **Opt-out Unity:** tocca l'icona "Data Privacy" mostrata all'interno di qualsiasi annuncio, contatta [DPO@unity3d.com](mailto:DPO@unity3d.com) oppure, se risiedi in California, usa la [pagina "Do Not Sell or Share My Personal Information" di Unity](https://unity.com/legal/do-not-sell-my-personal-information). Questa scelta interrompe la personalizzazione, ma non l'esposizione degli annunci — ciò avviene solo disattivando l'accesso a internet, come descritto nella Sezione 4.
 
 Rinunciare alla personalizzazione non rimuove gli annunci dall'App; significa semplicemente che non saranno più basati sui tuoi interessi.
 
 #### 7. Privacy dei Minori
 
-L'App è progettata per un pubblico generico e non è rivolta a bambini di età inferiore ai 13 anni. Non raccogliamo consapevolmente informazioni personali da minori. Tuttavia, Start.io può raccogliere identificatori pubblicitari da tutti gli utenti, come descritto nella Sezione 2. Se sei un genitore o tutore legale e ritieni che tuo figlio stia usando questa App, puoi eliminare o disattivare l'ID pubblicità del dispositivo tramite le impostazioni descritte nella Sezione 6.
+L'App è progettata per un pubblico generico e non è rivolta a bambini di età inferiore ai 13 anni. Non raccogliamo consapevolmente informazioni personali da minori. Tuttavia, Unity LevelPlay/Unity Ads può raccogliere identificatori pubblicitari da tutti gli utenti, come descritto nella Sezione 2. Se sei un genitore o tutore legale e ritieni che tuo figlio stia usando questa App, puoi eliminare o disattivare l'ID pubblicità del dispositivo tramite le impostazioni descritte nella Sezione 6.
 
 #### 8. Modifiche a questa Informativa
 
