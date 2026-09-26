@@ -1,6 +1,6 @@
 # Privacy Policy / Política de Privacidade / Política de Privacidad / Politique de Confidentialité / Informativa sulla Privacy
 
-**Last updated / Última atualização / Última actualización / Dernière mise à jour / Ultimo aggiornamento:** 2026-09-10
+**Last updated / Última atualização / Última actualización / Dernière mise à jour / Ultimo aggiornamento:** 2026-09-26
 
 ---
 
@@ -18,7 +18,7 @@
 
 ### Privacy Policy — Campo Minado Evolution
 
-**Effective date:** July 30, 2026 (advertising sections last revised September 10, 2026)
+**Effective date:** July 30, 2026 (last revised September 26, 2026)
 
 #### 1. Introduction
 
@@ -33,8 +33,7 @@ The App is currently available exclusively on **Google Play (Android)**. There i
 | Data | Purpose | Location |
 |---|---|---|
 | Game statistics (wins, losses, best time per difficulty) | Display your progress and records | Local SQLite database |
-| Saved game state (board layout, elapsed time, difficulty) | Resume interrupted games | Local SQLite database |
-| Preferences (difficulty, theme, sound) | Remember your settings | SharedPreferences (local) |
+| Preferences (difficulty, theme, sound, language, personalized-ads choice) | Remember your settings and your advertising choice | SharedPreferences (local) |
 
 **B. Data collected by Unity LevelPlay (Unity Ads):**
 
@@ -52,10 +51,9 @@ The App does not request device location permissions, so Unity only ever receive
 
 #### 3. Third-Party Advertising — Unity LevelPlay
 
-The App integrates **Unity LevelPlay**, Unity's ad mediation SDK, currently mediating only **Unity Ads** (Unity's own network). The App displays two ad formats:
+The App integrates **Unity LevelPlay**, Unity's ad mediation SDK, currently mediating only **Unity Ads** (Unity's own network). The App displays one ad format:
 
 - **Interstitial ads:** full-screen ads shown between game sessions, after at least 2 completed games and a minimum of 120 seconds since the last ad.
-- **Banner ads:** a small ad bar shown at the bottom of the main menu screen and the game screen. Unlike interstitials, banner ads have no throttle — they may remain visible continuously while those screens are open.
 
 Unity acts as an independent data controller for the data it collects from your device through LevelPlay/Unity Ads. We do not access or control that data. For more information, visit the [Unity Game Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
@@ -65,7 +63,7 @@ The App requires internet access to load and display advertisements. No other fu
 
 #### 5. Data Retention and Deletion
 
-**Your local data** (game statistics, saved games, and preferences) resides only on your device. You can delete it at any time by:
+**Your local data** (game statistics and preferences) resides only on your device. You can delete it at any time by:
 
 - Clearing the App's data in your device settings (Settings > Apps > Campo Minado Evolution > Clear Data), or
 - Uninstalling the App.
@@ -74,7 +72,7 @@ The App requires internet access to load and display advertisements. No other fu
 
 #### 6. Your Advertising Choices
 
-**In-app consent screen:** the first time you open the App, you are asked whether you allow personalized ads based on your device. If you decline, the App does not request any ad at all — neither interstitial nor banner — so no ad-related data is sent to Unity LevelPlay/Unity Ads for that purpose. You can review or change this choice at any time from **Settings > About the App > Personalized ads > Review**. This in-app choice is not a certified consent management platform (no IAB TCF, no per-vendor or per-purpose granularity) — it is a simple accept/decline control built into the App.
+**In-app consent screen:** the first time you open the App, you are asked whether you allow personalized ads based on your device. If you decline, the App does not request or display any ad. Note, however, that the ad SDK (Unity LevelPlay) is initialized every time the App starts, before you make this choice, so basic technical data needed for that initialization (such as device identifiers and IP address) may still be sent to Unity even if you decline. Your choice is passed to LevelPlay as a consent signal (GDPR) and a "do not sell" signal (CCPA) at the moment you make it. You can review or change this choice at any time from **Settings > About the App > Personalized ads > Review**. This in-app choice is not a certified consent management platform (no IAB TCF, no per-vendor or per-purpose granularity) — it is a simple accept/decline control built into the App.
 
 You can also opt out of personalized advertising at any time through these additional channels:
 
@@ -105,7 +103,7 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 
 ### Política de Privacidade — Campo Minado Evolution
 
-**Data de vigência:** 30 de julho de 2026 (seções de publicidade revisadas em 10 de setembro de 2026)
+**Data de vigência:** 30 de julho de 2026 (revisada em 26 de setembro de 2026)
 
 #### 1. Introdução
 
@@ -120,8 +118,7 @@ O Aplicativo está disponível atualmente apenas no **Google Play (Android)**. N
 | Dado | Finalidade | Local |
 |---|---|---|
 | Estatísticas de jogo (vitórias, derrotas, melhor tempo por dificuldade) | Exibir seu progresso e recordes | Banco de dados SQLite local |
-| Estado de jogo salvo (tabuleiro, tempo decorrido, dificuldade) | Retomar jogos interrompidos | Banco de dados SQLite local |
-| Preferências (dificuldade, tema, som) | Lembrar suas configurações | SharedPreferences (local) |
+| Preferências (dificuldade, tema, som, idioma, escolha sobre anúncios personalizados) | Lembrar suas configurações e sua escolha sobre anúncios | SharedPreferences (local) |
 
 **B. Dados coletados pelo Unity LevelPlay (Unity Ads):**
 
@@ -139,10 +136,9 @@ O Aplicativo não solicita permissão de localização do dispositivo, portanto 
 
 #### 3. Publicidade de Terceiros — Unity LevelPlay
 
-O Aplicativo integra o **Unity LevelPlay**, o SDK de mediação de anúncios da Unity, mediando atualmente apenas a **Unity Ads** (rede própria da Unity). O Aplicativo exibe dois formatos de anúncio:
+O Aplicativo integra o **Unity LevelPlay**, o SDK de mediação de anúncios da Unity, mediando atualmente apenas a **Unity Ads** (rede própria da Unity). O Aplicativo exibe um formato de anúncio:
 
 - **Anúncios intersticiais:** anúncios em tela cheia exibidos entre as partidas, após no mínimo 2 partidas concluídas e 120 segundos desde o último anúncio exibido.
-- **Anúncios em banner:** uma barra de anúncio exibida no rodapé da tela de menu principal e da tela de jogo. Diferente do intersticial, o banner não tem limite de frequência — pode permanecer visível continuamente enquanto essas telas estiverem abertas.
 
 A Unity atua como controladora independente de dados para as informações que coleta do seu dispositivo por meio do LevelPlay/Unity Ads. Não temos acesso nem controle sobre esses dados. Para mais informações, acesse a [Política de Privacidade para Jogadores e Usuários de Apps da Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
@@ -152,7 +148,7 @@ O Aplicativo requer acesso à internet para carregar e exibir anúncios. Nenhuma
 
 #### 5. Retenção e Exclusão de Dados
 
-**Seus dados locais** (estatísticas, jogos salvos e preferências) residem apenas no seu dispositivo. Você pode excluí-los a qualquer momento:
+**Seus dados locais** (estatísticas e preferências) residem apenas no seu dispositivo. Você pode excluí-los a qualquer momento:
 
 - Limpando os dados do Aplicativo nas configurações do dispositivo (Configurações > Aplicativos > Campo Minado Evolution > Limpar dados), ou
 - Desinstalando o Aplicativo.
@@ -161,7 +157,7 @@ O Aplicativo requer acesso à internet para carregar e exibir anúncios. Nenhuma
 
 #### 6. Suas Opções de Publicidade
 
-**Tela de consentimento no aplicativo:** na primeira vez que você abre o Aplicativo, é perguntado se você permite anúncios personalizados com base no seu dispositivo. Se você recusar, o Aplicativo não solicita nenhum anúncio — nem intersticial, nem banner — então nenhum dado relacionado a anúncios é enviado ao Unity LevelPlay/Unity Ads para essa finalidade. Você pode revisar ou alterar essa escolha a qualquer momento em **Definições > Sobre o App > Anúncios personalizados > Revisar**. Essa escolha no aplicativo não é uma plataforma de consentimento certificada (sem IAB TCF, sem granularidade por finalidade ou fornecedor) — é um controle simples de permitir/recusar embutido no Aplicativo.
+**Tela de consentimento no aplicativo:** na primeira vez que você abre o Aplicativo, é perguntado se você permite anúncios personalizados com base no seu dispositivo. Se você recusar, o Aplicativo não solicita nem exibe nenhum anúncio. Porém, o SDK de anúncios (Unity LevelPlay) é inicializado sempre que o Aplicativo é aberto, antes de você fazer essa escolha; por isso, dados técnicos básicos necessários a essa inicialização (como identificadores do dispositivo e endereço IP) ainda podem ser enviados à Unity mesmo que você recuse. Sua escolha é repassada ao LevelPlay como sinal de consentimento (GDPR) e de "não vender" (CCPA) no momento em que você a faz. Você pode revisar ou alterar essa escolha a qualquer momento em **Definições > Sobre o App > Anúncios personalizados > Revisar**. Essa escolha no aplicativo não é uma plataforma de consentimento certificada (sem IAB TCF, sem granularidade por finalidade ou fornecedor) — é um controle simples de permitir/recusar embutido no Aplicativo.
 
 Você também pode optar por não receber anúncios personalizados a qualquer momento por estes outros canais:
 
@@ -192,7 +188,7 @@ Em caso de dúvidas ou preocupações sobre esta Política de Privacidade, entre
 
 ### Política de Privacidad — Campo Minado Evolution
 
-**Fecha de vigencia:** 30 de julio de 2026 (secciones de publicidad revisadas el 10 de septiembre de 2026)
+**Fecha de vigencia:** 30 de julio de 2026 (revisada el 26 de septiembre de 2026)
 
 #### 1. Introducción
 
@@ -207,8 +203,7 @@ La Aplicación está disponible actualmente solo en **Google Play (Android)**. N
 | Dato | Finalidad | Ubicación |
 |---|---|---|
 | Estadísticas de juego (victorias, derrotas, mejor tiempo por dificultad) | Mostrar su progreso y récords | Base de datos SQLite local |
-| Estado del juego guardado (tablero, tiempo transcurrido, dificultad) | Reanudar partidas interrumpidas | Base de datos SQLite local |
-| Preferencias (dificultad, tema, sonido) | Recordar su configuración | SharedPreferences (local) |
+| Preferencias (dificultad, tema, sonido, idioma, elección sobre anuncios personalizados) | Recordar su configuración y su elección sobre anuncios | SharedPreferences (local) |
 
 **B. Datos recopilados por Unity LevelPlay (Unity Ads):**
 
@@ -226,10 +221,9 @@ La Aplicación no solicita permiso de ubicación del dispositivo, por lo que Uni
 
 #### 3. Publicidad de Terceros — Unity LevelPlay
 
-La Aplicación integra **Unity LevelPlay**, el SDK de mediación de anuncios de Unity, que actualmente media solo **Unity Ads** (red propia de Unity). La Aplicación muestra dos formatos de anuncio:
+La Aplicación integra **Unity LevelPlay**, el SDK de mediación de anuncios de Unity, que actualmente media solo **Unity Ads** (red propia de Unity). La Aplicación muestra un formato de anuncio:
 
 - **Anuncios intersticiales:** anuncios a pantalla completa mostrados entre partidas, después de al menos 2 partidas completadas y 120 segundos desde el último anuncio mostrado.
-- **Anuncios en banner:** una barra publicitaria mostrada en la parte inferior de la pantalla del menú principal y de la pantalla de juego. A diferencia del intersticial, el banner no tiene límite de frecuencia — puede permanecer visible de forma continua mientras esas pantallas estén abiertas.
 
 Unity actúa como controlador de datos independiente respecto a los datos que recopila de su dispositivo a través de LevelPlay/Unity Ads. No tenemos acceso ni control sobre dichos datos. Para más información, visite la [Política de Privacidad para Jugadores y Usuarios de Apps de Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
@@ -239,7 +233,7 @@ La Aplicación requiere acceso a internet para cargar y mostrar anuncios. Ningun
 
 #### 5. Retención y Eliminación de Datos
 
-**Sus datos locales** (estadísticas, partidas guardadas y preferencias) residen únicamente en su dispositivo. Puede eliminarlos en cualquier momento:
+**Sus datos locales** (estadísticas y preferencias) residen únicamente en su dispositivo. Puede eliminarlos en cualquier momento:
 
 - Borrando los datos de la Aplicación en la configuración del dispositivo (Ajustes > Aplicaciones > Campo Minado Evolution > Borrar datos), o
 - Desinstalando la Aplicación.
@@ -248,7 +242,7 @@ La Aplicación requiere acceso a internet para cargar y mostrar anuncios. Ningun
 
 #### 6. Sus Opciones Publicitarias
 
-**Pantalla de consentimiento en la app:** la primera vez que abre la Aplicación, se le pregunta si permite anuncios personalizados según su dispositivo. Si rechaza, la Aplicación no solicita ningún anuncio — ni intersticial ni banner — por lo que no se envía ningún dato relacionado con anuncios a Unity LevelPlay/Unity Ads para ese fin. Puede revisar o cambiar esta elección en cualquier momento desde **Ajustes > Sobre la App > Anuncios personalizados > Revisar**. Esta elección dentro de la app no es una plataforma de consentimiento certificada (sin IAB TCF, sin granularidad por finalidad o proveedor) — es un control simple de permitir/rechazar integrado en la Aplicación.
+**Pantalla de consentimiento en la app:** la primera vez que abre la Aplicación, se le pregunta si permite anuncios personalizados según su dispositivo. Si rechaza, la Aplicación no solicita ni muestra ningún anuncio. Sin embargo, el SDK de anuncios (Unity LevelPlay) se inicializa cada vez que se abre la Aplicación, antes de que usted tome esta decisión; por ello, los datos técnicos básicos necesarios para esa inicialización (como identificadores del dispositivo y dirección IP) aún pueden enviarse a Unity aunque rechace. Su elección se transmite a LevelPlay como señal de consentimiento (GDPR) y de "no vender" (CCPA) en el momento en que la realiza. Puede revisar o cambiar esta elección en cualquier momento desde **Ajustes > Sobre la App > Anuncios personalizados > Revisar**. Esta elección dentro de la app no es una plataforma de consentimiento certificada (sin IAB TCF, sin granularidad por finalidad o proveedor) — es un control simple de permitir/rechazar integrado en la Aplicación.
 
 También puede optar por no recibir publicidad personalizada en cualquier momento a través de estos otros canales:
 
@@ -279,7 +273,7 @@ Si tiene preguntas o inquietudes sobre esta Política de Privacidad, contácteno
 
 ### Politique de Confidentialité — Campo Minado Evolution
 
-**Date d'entrée en vigueur :** 30 juillet 2026 (sections publicitaires révisées le 10 septembre 2026)
+**Date d'entrée en vigueur :** 30 juillet 2026 (révisée le 26 septembre 2026)
 
 #### 1. Introduction
 
@@ -294,8 +288,7 @@ L'Application est actuellement disponible uniquement sur **Google Play (Android)
 | Donnée | Finalité | Emplacement |
 |---|---|---|
 | Statistiques de jeu (victoires, défaites, meilleur temps par difficulté) | Afficher vos progrès et records | Base de données SQLite locale |
-| État de la partie sauvegardée (plateau, temps écoulé, difficulté) | Reprendre les parties interrompues | Base de données SQLite locale |
-| Préférences (difficulté, thème, son) | Mémoriser vos paramètres | SharedPreferences (local) |
+| Préférences (difficulté, thème, son, langue, choix concernant les publicités personnalisées) | Mémoriser vos paramètres et votre choix publicitaire | SharedPreferences (local) |
 
 **B. Données collectées par Unity LevelPlay (Unity Ads) :**
 
@@ -313,10 +306,9 @@ L'Application ne demande aucune autorisation de localisation de l'appareil ; Uni
 
 #### 3. Publicité Tierce — Unity LevelPlay
 
-L'Application intègre **Unity LevelPlay**, le SDK de médiation publicitaire d'Unity, qui ne fait actuellement appel qu'à **Unity Ads** (réseau propre d'Unity). L'Application affiche deux formats de publicité :
+L'Application intègre **Unity LevelPlay**, le SDK de médiation publicitaire d'Unity, qui ne fait actuellement appel qu'à **Unity Ads** (réseau propre d'Unity). L'Application affiche un format de publicité :
 
 - **Publicités interstitielles :** publicités en plein écran affichées entre les parties, après au moins 2 parties terminées et 120 secondes depuis la dernière publicité affichée.
-- **Publicités bannière :** une barre publicitaire affichée en bas de l'écran du menu principal et de l'écran de jeu. Contrairement à l'interstitiel, la bannière n'a pas de limite de fréquence — elle peut rester visible en continu tant que ces écrans sont ouverts.
 
 Unity agit en tant que responsable du traitement indépendant pour les données qu'il collecte depuis votre appareil via LevelPlay/Unity Ads. Nous n'avons pas accès à ces données et n'en avons pas le contrôle. Pour plus d'informations, consultez la [Politique de Confidentialité pour les Joueurs et Utilisateurs d'Applications d'Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
@@ -326,7 +318,7 @@ L'Application nécessite un accès à internet pour charger et afficher des publ
 
 #### 5. Conservation et Suppression des Données
 
-**Vos données locales** (statistiques, parties sauvegardées et préférences) résident uniquement sur votre appareil. Vous pouvez les supprimer à tout moment :
+**Vos données locales** (statistiques et préférences) résident uniquement sur votre appareil. Vous pouvez les supprimer à tout moment :
 
 - En effaçant les données de l'Application dans les paramètres de votre appareil (Paramètres > Applications > Campo Minado Evolution > Effacer les données), ou
 - En désinstallant l'Application.
@@ -335,7 +327,7 @@ L'Application nécessite un accès à internet pour charger et afficher des publ
 
 #### 6. Vos Choix Publicitaires
 
-**Écran de consentement dans l'application :** la première fois que vous ouvrez l'Application, il vous est demandé si vous autorisez des publicités personnalisées basées sur votre appareil. Si vous refusez, l'Application ne demande aucune publicité — ni interstitielle, ni bannière — aucune donnée liée aux publicités n'est donc envoyée à Unity LevelPlay/Unity Ads à cette fin. Vous pouvez revoir ou modifier ce choix à tout moment depuis **Paramètres > À propos > Publicités personnalisées > Revoir**. Ce choix dans l'application n'est pas une plateforme de consentement certifiée (pas d'IAB TCF, pas de granularité par finalité ou par fournisseur) — c'est un simple contrôle autoriser/refuser intégré à l'Application.
+**Écran de consentement dans l'application :** la première fois que vous ouvrez l'Application, il vous est demandé si vous autorisez des publicités personnalisées basées sur votre appareil. Si vous refusez, l'Application ne demande ni n'affiche aucune publicité. Toutefois, le SDK publicitaire (Unity LevelPlay) est initialisé à chaque lancement de l'Application, avant que vous ne fassiez ce choix ; les données techniques de base nécessaires à cette initialisation (telles que les identifiants de l'appareil et l'adresse IP) peuvent donc encore être transmises à Unity même si vous refusez. Votre choix est transmis à LevelPlay sous forme de signal de consentement (RGPD) et de signal « ne pas vendre » (CCPA) au moment où vous le faites. Vous pouvez revoir ou modifier ce choix à tout moment depuis **Paramètres > À propos > Publicités personnalisées > Revoir**. Ce choix dans l'application n'est pas une plateforme de consentement certifiée (pas d'IAB TCF, pas de granularité par finalité ou par fournisseur) — c'est un simple contrôle autoriser/refuser intégré à l'Application.
 
 Vous pouvez également vous désabonner de la publicité personnalisée à tout moment via ces autres canaux :
 
@@ -366,7 +358,7 @@ Si vous avez des questions ou des préoccupations concernant cette Politique de 
 
 ### Informativa sulla Privacy — Campo Minado Evolution
 
-**Data di entrata in vigore:** 30 luglio 2026 (sezioni pubblicitarie riviste il 10 settembre 2026)
+**Data di entrata in vigore:** 30 luglio 2026 (rivista il 26 settembre 2026)
 
 #### 1. Introduzione
 
@@ -381,8 +373,7 @@ L'App è attualmente disponibile esclusivamente su **Google Play (Android)**. Al
 | Dato | Finalità | Posizione |
 |---|---|---|
 | Statistiche di gioco (vittorie, sconfitte, miglior tempo per difficoltà) | Mostrare i tuoi progressi e record | Database SQLite locale |
-| Stato della partita salvata (griglia, tempo trascorso, difficoltà) | Riprendere le partite interrotte | Database SQLite locale |
-| Preferenze (difficoltà, tema, suono) | Ricordare le tue impostazioni | SharedPreferences (locale) |
+| Preferenze (difficoltà, tema, suono, lingua, scelta sugli annunci personalizzati) | Ricordare le tue impostazioni e la tua scelta sugli annunci | SharedPreferences (locale) |
 
 **B. Dati raccolti da Unity LevelPlay (Unity Ads):**
 
@@ -400,10 +391,9 @@ L'App non richiede il permesso di localizzazione del dispositivo, quindi Unity r
 
 #### 3. Pubblicità di Terze Parti — Unity LevelPlay
 
-L'App integra **Unity LevelPlay**, l'SDK di mediazione pubblicitaria di Unity, che al momento media solo **Unity Ads** (rete propria di Unity). L'App mostra due formati di annuncio:
+L'App integra **Unity LevelPlay**, l'SDK di mediazione pubblicitaria di Unity, che al momento media solo **Unity Ads** (rete propria di Unity). L'App mostra un formato di annuncio:
 
 - **Annunci interstitial:** annunci a schermo intero mostrati tra le partite, dopo almeno 2 partite completate e un minimo di 120 secondi dall'ultimo annuncio visualizzato.
-- **Annunci banner:** una barra pubblicitaria mostrata in fondo alla schermata del menu principale e alla schermata di gioco. A differenza dell'interstitial, il banner non ha limiti di frequenza — può rimanere visibile in modo continuo mentre quelle schermate sono aperte.
 
 Unity agisce come titolare del trattamento indipendente per i dati che raccoglie dal tuo dispositivo tramite LevelPlay/Unity Ads. Non abbiamo accesso né controllo su tali dati. Per ulteriori informazioni, visita l'[Informativa sulla Privacy per Giocatori e Utenti di App di Unity](https://unity.com/legal/game-player-and-app-user-privacy-policy).
 
@@ -413,7 +403,7 @@ L'App richiede l'accesso a internet per caricare e mostrare annunci pubblicitari
 
 #### 5. Conservazione ed Eliminazione dei Dati
 
-**I tuoi dati locali** (statistiche, partite salvate e preferenze) risiedono solo sul tuo dispositivo. Puoi eliminarli in qualsiasi momento:
+**I tuoi dati locali** (statistiche e preferenze) risiedono solo sul tuo dispositivo. Puoi eliminarli in qualsiasi momento:
 
 - Cancellando i dati dell'App nelle impostazioni del dispositivo (Impostazioni > App > Campo Minado Evolution > Cancella dati), oppure
 - Disinstallando l'App.
@@ -422,7 +412,7 @@ L'App richiede l'accesso a internet per caricare e mostrare annunci pubblicitari
 
 #### 6. Le Tue Scelte Pubblicitarie
 
-**Schermata di consenso nell'app:** la prima volta che apri l'App, ti viene chiesto se consenti annunci personalizzati in base al tuo dispositivo. Se rifiuti, l'App non richiede alcun annuncio — né interstitial né banner — quindi nessun dato relativo agli annunci viene inviato a Unity LevelPlay/Unity Ads per tale scopo. Puoi rivedere o modificare questa scelta in qualsiasi momento da **Impostazioni > Info sull'App > Annunci personalizzati > Rivedi**. Questa scelta nell'app non è una piattaforma di consenso certificata (senza IAB TCF, senza granularità per finalità o fornitore) — è un semplice controllo consenti/rifiuta integrato nell'App.
+**Schermata di consenso nell'app:** la prima volta che apri l'App, ti viene chiesto se consenti annunci personalizzati in base al tuo dispositivo. Se rifiuti, l'App non richiede né mostra alcun annuncio. Tuttavia, l'SDK pubblicitario (Unity LevelPlay) viene inizializzato a ogni avvio dell'App, prima che tu faccia questa scelta; i dati tecnici di base necessari a tale inizializzazione (come gli identificatori del dispositivo e l'indirizzo IP) possono quindi essere ancora inviati a Unity anche se rifiuti. La tua scelta viene trasmessa a LevelPlay come segnale di consenso (GDPR) e di "non vendere" (CCPA) nel momento in cui la effettui. Puoi rivedere o modificare questa scelta in qualsiasi momento da **Impostazioni > Info sull'App > Annunci personalizzati > Rivedi**. Questa scelta nell'app non è una piattaforma di consenso certificata (senza IAB TCF, senza granularità per finalità o fornitore) — è un semplice controllo consenti/rifiuta integrato nell'App.
 
 Puoi inoltre rinunciare alla pubblicità personalizzata in qualsiasi momento tramite questi altri canali:
 
